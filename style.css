@@ -1,0 +1,43 @@
+.header {
+    grid-area : header;
+}
+.main {
+    grid-area : main;
+}
+.footer {
+    grid-area : footer;
+}
+.sidebar {
+    grid-area : sidebar;
+}
+.grid-container {
+    display:grid;
+    /* grid-template-areas:
+    'header header'
+    'sidebar main'
+    'footer footer '; */
+
+
+    grid-template-columns: repeat(5, 2fr); 2fr 2fr 2fr  2fr 2fr 
+    gap: 10px;
+    /* padding:10px; */
+    /* column-gap:10px;
+    row-gap:20px */
+
+}
+
+.box{
+    border: 1px solid black;
+    margin:10px;
+}
+/* 
+.grid-item img {
+    border: 2px solid black;
+
+} */
+
+.rem{
+    font-size: 10rem
+} 
+
+.em { font-size : 10em}
